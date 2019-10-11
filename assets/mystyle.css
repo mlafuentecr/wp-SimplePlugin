@@ -1,0 +1,16 @@
+.wrapFlex {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.wrapFlex h1 {
+  width: 100%;
+}
+
+.wrapFlex .card {
+  width: 40%;
+  box-sizing: content-box;
+  margin: 10px;
+}
